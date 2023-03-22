@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right,#D9A0AB,#D9C1B8,#d8b2aad2);
+    /*Medidas absolutas: centimetro(cm), milimetro(mm), polegada(in), 
+    pixel(px), ponto(pt), paica(pc)
+    
+    Medidas relativas: em, ex, rem, vw, vh, %*
+    16px geralmente é = a 1em*/
+    font-size: 1em;
+    font-weight: lighter;
+    /*lighter, normal, bold, bolder*/
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #D9A0AB;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8593A6;
+    text-align: center;
+    text-shadow: 1px 1px 2px #D9A0AB;
+    /*shorthand
+    -font-style
+    -font-weight
+    -font-size
+    -font-familly*/
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Verdana';
+    color: #D9A79C;
+}
+
+p {
+    text-align: justify;
+}
