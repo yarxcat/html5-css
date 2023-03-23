@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (só pode um elemento com o mesmo nome por página)
+    em HTML é class = em CSS é . (pode varios elementos com a mesma class)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Gloria+Hallelujah&display=swap');
+
+body {
+    background-image: linear-gradient(to right,#D9A0AB,#D9C1B8,#d8b2aad2);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #D9A0AB;
+}
+
+h1#principal {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 35px;
+    color: #ece4e6;
+    background-color: #d696a3;
+    text-align:center;
+}
+h1 {
+    color: #d696a3;
+}
+
+h2 {
+    color: #e0adb7;
+}
+.basico {
+    color: #ffadbe;
+    font-weight: bold;
+}
+.intermediario {
+    color: #e68b9d;
+}
+.avancado {
+    color: #d65d75;
+}
+
+p {
+    text-align: justify;
+}
+
+.destaque {
+    background-color: #ec8297a8;
+}
