@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+           :: = pseudo-element
+            > = clildren
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(235, 170, 231);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(126, 35, 211);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(0, 174, 255);
+        }
+        a:active {
+            color: black;
+        }
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+            font-size: smaller;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/yarxcat" target="_blank">Perfil Github</a></li>
+        <li><a href="https://www.linkedin.com/in/moniky-yara-flores-a175b224a/">LinkedIn</a></li>
+
+        <li><a href="https://www.instagram.com/yarxcat/">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>
